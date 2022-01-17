@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Ironing_Board_Latest.ma
-//Last modified: Sat, Jan 15, 2022 05:59:45 PM
+//Last modified: Sat, Jan 15, 2022 06:02:11 PM
 //Codeset: 1252
 requires maya "2020";
 requires "stereoCamera" "10.0";
@@ -14,17 +14,17 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19042)\n";
-fileInfo "UUID" "3ABFF9D4-426A-649F-454C-888D723F06C8";
+fileInfo "UUID" "35987980-4D88-3B8C-158E-1BADA621B771";
 createNode transform -s -n "persp";
 	rename -uid "A9F36DE9-4506-D99B-681D-ACB82AEFBDB2";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 7.243559763927701 20.346915960839205 18.185262147050114 ;
-	setAttr ".r" -type "double3" -35.738352730418427 1099.7999999998649 -2.5353010602469476e-15 ;
+	setAttr ".t" -type "double3" 5.6564113590015062 14.936519526478836 7.1159904021766884 ;
+	setAttr ".r" -type "double3" -42.938352730418593 1114.1999999998638 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F93316C5-4FAA-1A5D-693E-489E0B7BB695";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 24.614304630582346;
+	setAttr ".coi" 12.919580859729386;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -5314,7 +5314,7 @@ createNode file -n "file1";
 createNode place2dTexture -n "place2dTexture1";
 	rename -uid "B11F9B3E-456F-884B-0439-E4B0953DF47E";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "9B2D59EF-49CA-6DEB-6D8F-438B3459105E";
+	rename -uid "3ACE42E9-4257-C700-ECF2-1292F242B6A7";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -982.93813657055296 -352.80339687349908 ;
 	setAttr ".tgi[0].vh" -type "double2" -376.25241947715426 34.025596101821684 ;
